@@ -1,4 +1,12 @@
+> ℹ️ This project is designed to be hosted on Autocode, and the setup instructions below are designed to be run on the Autocode App page. Click the `Open on Autocode` button below to be taken to this project on Autocode's website.
+>
+> [<img src="https://open.autocode.com/static/images/open.svg?" width="192">](https://autocode.com/JacklynBiggin/apps/discord-leaderboard/)
+
+
 # Discord Leaderboard - Powered by Airtable
+
+![](/readme/gallery/gallery-2-min.png)
+
 Everyone wants their Discord server to be as engaged as possible, but sometimes it's difficult to know how to encourage activity. This plug-and-play leaderboard app is designed to make it as easy as possible to add a scoreboard to your Discord server. By default, users earn points for sending messages, adding reactions and creating threads, although you can modify the project to award points for almost any action.
 
 ## Features

@@ -1,0 +1,14 @@
+{
+  "MESSAGESENT": {
+    "limit": 10,
+    "points": 1
+  },
+  "REACTIONADDED": {
+    "limit": 2,
+    "points": 3
+  },
+  "THREADCREATED": {
+    "limit": 1,
+    "points": 15
+  }
+}

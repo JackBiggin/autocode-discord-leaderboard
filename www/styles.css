@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+html, body {
+  min-height: 100vh;
+  background-color: #2f3137;
+}
+
+p, h1, h2, h3, h4, h5, h6, .table {
+  color: #f6f6f7;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 900;
+}
+
+.table {
+  border: 1px solid #16181E;
+}
+
+.table tr, .table td, .table th {
+  border: 0;
+}
+
+.table thead {
+  background-color: #16181E;
+  font-size: 1.2em;
+  border: 0;
+}
+
+.table > tbody > tr {
+  background-color: #494B51;
+}
+
+.table > tbody > tr:nth-child(even) {
+  background-color: #62646A;
+}

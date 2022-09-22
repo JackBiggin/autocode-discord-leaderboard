@@ -1,0 +1,45 @@
+{
+  "name": "jacklynbiggin/discord-leaderboard",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/reaction/add.js": {
+      "name": "discord.message.reaction.add"
+    },
+    "functions/events/discord/thread/create.js": {
+      "name": "discord.thread.create"
+    },
+    "functions/events/scheduler/hourly.js": {
+      "name": "scheduler.hourly",
+      "subtype": {
+        "offset": "0 minutes"
+      }
+    },
+    "functions/events/discord/command/scoreboard.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "scoreboard"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    }
+  },
+  "env": [
+    {
+      "name": "KV_PREFIX",
+      "description": "A string that is prepended onto all KV keys. This allows you to run multiple instances of this app on the same Autocode account. Each instance should have a different prefix."
+    },
+    {
+      "name": "AIRTABLE_BASE_ID",
+      "description": "The base ID, beginning with \"app\", of the Airtable Base you're trying to connect to. This should be the ID of the base you duplicated earlier. If you're unsure how to find this, check this app's README!"
+    },
+    {
+      "name": "DISCORD_GUILD_ID",
+      "description": "The ID of your Discord server. You can find this by enabling Discord Developer Mode, right clicking your server's icon and clicking Copy ID."
+    }
+  ]
+}

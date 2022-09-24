@@ -1,4 +1,4 @@
-> ℹ️ This project is designed to be hosted on Autocode, and the setup instructions below are designed to be run on the Autocode App page. Click the `Open on Autocode` button below to be taken to this project on Autocode's website.
+> ℹ️ This project is designed to be hosted on Autocode, and the setup instructions below are designed to be followed on the Autocode App page. Click the `Open in Autocode` button below to be taken to this project on Autocode's website.
 >
 > [<img src="https://open.autocode.com/static/images/open.svg?" width="192">](https://autocode.com/JacklynBiggin/apps/discord-leaderboard/)
 
